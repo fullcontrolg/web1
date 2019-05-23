@@ -1,0 +1,48 @@
+/* designed by  */
+h1,h2,h3,h4,h5,h6 {
+	text-align : center;
+}
+
+a:hover {
+	
+}
+
+body {
+	background : rgb( 200, 201, 203 );
+}
+
+table {
+	background : rgb( 163, 163, 175 );
+	border-color : black;
+}
+
+table input {
+	
+}
+
+.input {
+
+}
+
+.input[type=text], .input[type=password] {
+	color : rgb( 200, 201, 203 );
+}
+	
+.inputbutton {
+	color : rgb( 112, 112, 123 );
+
+}
+
+th {
+	
+}
+
+td :hover, td :active{
+	color : rgb( 163, 163, 175 );
+}
+
+span, strong {
+	color : black; 
+}
+
+

@@ -1,0 +1,96 @@
+/* designed by  */
+h1,h2,h3,h4,h5,h6 {
+	text-align: center;
+		-webkit-animation: mymove 10s infinite;
+		font-size:3em;
+	}
+	@-webkit-keyframes mymove {
+  	from {color:black;}
+  	to {color:white;}
+}
+a {
+}
+
+a:hover {
+}
+
+body {
+	font-size: large;
+	font-family : "Comic Sans MS", cursive, sans-serif;
+	font-family: "궁서";
+	background-image: url("ladder.jpg");	
+}
+
+table {
+	width : 450px;
+	height: 300px;
+	margin-left : auto;
+	margin-right : auto;
+	color: black; 
+	border-collapse: separate;
+  	border-spacing: 0px;
+  	border : 5px ridge #ff8080;
+	opacity: 0.1;
+	margin-top:  150px;
+	
+} 
+table:hover {
+	opacity : 1;
+	
+}
+table input {
+	background: #ececec;
+}
+
+.input {
+	background: #ececec;
+
+}
+
+.input[type=text], .input[type=password] {
+	width: 99%;
+	height: 99%;
+	font-size: xx-large;
+}
+	
+.inputbutton {
+	  width : 45%;
+	  height : 90%;
+	  font-size: x-large;
+	  background : rgb(211, 244, 250);
+	  display: inline-block;
+	  padding: 2px 20px;
+	  cursor: pointer;
+	  text-align: center;
+	  text-decoration: none;
+	  outline: none;
+	  color: #fff;
+	  background-color: #c0c0c0;
+	  border: none;
+	  border-radius: 5px;
+	  box-shadow: 0 3px #999;
+	  font-family: "궁서";
+}
+
+.inputbutton:hover {background-color: #ffc1c1}
+.inputbutton:active {
+  background-color: #ff4848;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}
+th {
+	background: #ececec;
+}
+
+td {
+	background: #ececec;
+}
+
+span {
+	
+}
+
+center {
+	
+}
+

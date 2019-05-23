@@ -1,0 +1,75 @@
+/* designed by  */
+h1,h2,h3,h4,h5,h6 {
+	color: #AAAAAA;	
+	text-align: center;
+}
+
+a {
+	
+}
+ 
+a:hover {
+
+}
+
+body {
+	background-position:center;
+	font-family: 'Lato', sans-serif;	
+	background-color: #222222;	
+	background-image:url("https://images.pexels.com/photos/2191051/pexels-photo-2191051.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"); 
+	height : 200px;
+	background-repeat: no-repeat;
+}
+
+table {
+	margin-right:auto;
+	margin-left:auto;
+	width:22%;
+	border-style:solid 1px;
+	border-radius:5px;
+	background-color: #e4e4e4;	
+	padding: 5px;
+}
+
+table input {
+	border-style:none;
+	border-radius:5px;
+			
+}
+
+.input {
+	background-color: #ffffff;
+	border-style:none;
+	border-radius:3px;
+	border : solid 1px;
+
+}
+
+.input[type=text], .input[type=password] {
+	
+}
+	
+.inputbutton {
+	color: black;	
+	border : solid 1px color: #AAAAAA;;
+	font-size-adjust: inherit;
+}
+
+th {
+	border-style:none;
+	font-size : 10px;	
+}
+
+td {
+	border-style:none;
+	font-size : 10px;		
+}
+
+span {
+	
+}
+
+center {
+	
+}
+

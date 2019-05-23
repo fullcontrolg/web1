@@ -1,0 +1,95 @@
+/* designed by  */
+h1,h2,h3,h4,h5,h6 {
+
+}
+
+a {
+	
+}
+ 
+a:hover {
+	
+}
+
+body {
+	background : url(bonolikeshit.png) no-repeat fixed right bottom,
+				linear-gradient(to right, rgb(229,45,45), rgb(237,160,37), rgb(255,247,40),
+				rgb(110,255,48), rgb(40,157,252), rgb(22,74,142) ,rgb(242,38,228));
+}
+
+table {
+	border-width: 20px 40px;
+	border-color: red;
+	position: relative;
+	animation-name: example;
+	animation-duration: 4s;
+	animation-iteration-count: 2;
+	animation-direction: alternate-reverse;
+}
+@keyframes example {
+  0%   {left:0px; top:0px;}
+  10%  {left:200px; top:0px;}
+  20%  {left:500px; top:200px;}
+  30%  {left:10px; top:200px;}
+  40% {left:40px; top:75px;}
+  50% {left:600px; top:20px;}
+  60% {left:50px; top:400px;}
+  70% {left:300px; top:900px;}
+  80% {left:90px; top:5px;}
+  90% {left:40px; top:200px;}
+  100% {left:0px; top:0px;}
+}
+
+table input {
+	
+}
+
+.input {
+
+}
+
+
+.input[type=text], .input[type=password] {
+	
+}
+
+	
+.inputbutton {
+	height:100px;
+	width:220px;
+	background: url("neoburi.png");
+	padding : 40px 10px;
+	font-size : 220%;
+	font-weight : bold;
+	text-align : right;
+	border-color : green;
+	border-width : 5px;
+	text-shadow: white 0px 0px 3px;
+}
+
+.inputbutton:hover {
+	background-image : url(porori.png);
+	transition-duration: 0.5s;
+}
+.inputbutton:active{
+	background-image : url(activebono.png);
+	transition-duration: 0.5s;
+}
+
+
+th {
+	border-width: 5px;
+}
+
+td {
+	border-width: 5px;	
+}
+
+span {
+	
+}
+
+center {
+	
+}
+

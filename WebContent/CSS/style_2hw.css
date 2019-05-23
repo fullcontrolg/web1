@@ -1,0 +1,94 @@
+/* designed by  */
+h1,h2,h3,h4,h5,h6 {
+		color : #8120e1;
+		text-align : center;
+}
+
+a {
+	background : #e0ceff;
+	font-family:ebrima, sans-serif ;
+}
+ 
+a:hover {
+	background : #8120e1;	
+}
+
+body {
+	background : #e0ceff;
+	font-family:ebrima, sans-serif ;
+	color : #8120e1;
+}
+
+table {
+	margin : auto;
+	width : 380px;
+	height : 200px;
+	font-family:ebrima, sans-serif ;
+	border-radius : 5px 5px 5px 5px;
+	border:1px dashed #a662ea;
+	background : #CEB2FF;
+	padding : 1px;
+}
+
+table input {
+	font-family:ebrima, sans-serif ;
+	vertical-align : middle;
+	border: 1px dashed #a662ea;	
+	border-radius : 5px 5px 5px 5px;	
+	background : #a662ea;
+}
+
+.input {
+	font-family:ebrima, sans-serif ;
+	vertical-align : middle;
+	border: 1px dashed #a662ea;
+	border-radius : 5px 5px 5px 5px;
+	background : #CEB2FF;
+	outline : none;
+}
+
+.input[type=text], .input[type=number] {
+	width : 95%
+}
+	
+.inputbutton {
+	color:#8120e1;
+	border-radius : 5px 5px 5px 5px;
+	background : transparent;
+	outline : none;
+}
+
+.input:hover {
+	background : #e0ceff;
+}
+
+.inputbutton:hover {
+	background : #e0ceff;
+}
+
+th {
+	color:#8120e1;
+	font-family:ebrima, sans-serif ;
+	border-radius : 5px 5px 5px 5px;
+	border:1px dashed #a662ea;
+	background : #CEB2FF;
+	padding: 3px;
+}
+
+td {
+	text-align: center;
+	color:#8120e1;
+	font-family:ebrima, sans-serif ;
+	border-radius : 5px 5px 5px 5px;	
+	border:1px dashed #a662ea;
+	background : #CEB2FF;
+}
+
+span {
+	
+}
+
+center {
+	
+}
+

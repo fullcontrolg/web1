@@ -1,0 +1,66 @@
+/* designed by  */
+h1,h2,h3,h4,h5,h6 {
+	text-align: left;
+  	color: white;
+}
+
+a {
+	
+}
+ 
+a:hover {
+
+}
+
+body {
+	background: #ff9d3c;							
+	font-family : "Comic Sans MS", cursive, sans-serif;
+	
+}
+
+table th, td {
+	
+	border: 1px solid black;
+}
+
+table input {
+	
+}
+
+.input {
+		font-style : "Comic Sans MS", cursive, sans-serif;
+		font-weight : normal;
+		color: blue;
+
+}
+
+.input[type=text], .input[type=password] {
+	
+}
+	
+.inputbutton {
+		font-style : "Comic Sans MS", cursive, sans-serif;
+		font-weight : bold;
+		color: purple;
+}
+
+th {
+		font-style : "Comic Sans MS", cursive, sans-serif;
+		font-weight : bold;		
+  		color: white;
+
+}
+
+td {
+		text-align: left;
+  		color: white;
+}
+
+span {
+	
+}
+
+center {
+	
+}
+

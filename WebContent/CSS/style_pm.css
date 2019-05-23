@@ -1,0 +1,61 @@
+/* designed by  */
+h1,h2,h3,h4,h5,h6 {
+	font-style : normal;
+}
+
+a {
+	text-decoration: none;
+}
+ 
+a:hover {
+	color : White;
+}
+
+body {
+	background-color : #9edde0;
+	background-repeat : no-repeat;
+	background-attachment : fixed;
+	background-position: center top;
+	
+}
+
+table {
+	border-spacing : 0px;
+	border-collapse : collapse;
+	border : solid 2px blue
+	
+}
+
+table input {
+	
+}
+
+.input {
+	border : solid 1px blue;
+}
+
+.input[type=text], .input[type=password] {
+	
+}
+	
+.inputbutton {
+	border : solid 1px blue;
+	background-color : white
+}
+
+th {
+	border : solid 2px blue
+}
+
+td {
+	border : solid 2px blue;
+	valign : "middle";
+}
+
+span {
+	
+}
+
+center {
+	
+}

@@ -1,0 +1,111 @@
+
+/* designed by  */
+h1,h2,h3,h4,h5,h6 {
+		
+}
+	
+}
+
+a {
+	
+}
+ 
+a:hover {
+	font-family: Sans-serif;
+}
+
+body {
+	background-image : url(background.png);
+	color: white;
+}
+
+  table, th, td {
+    border: 1px solid #bcbcbc;
+  }
+ 
+table {
+	width: 500px;
+	height: 500px;
+	background-color: black;
+    background-color: rgba( 255, 255, 255, 0.3 );
+	font-family: Sans-serif;
+	font-size: 20px;
+}
+
+table input {
+	background-color: #000039;
+	color: white;
+	border-radius: 5px;
+	font-family: Sans-serif;
+	font-size: 20px;	
+}
+
+.input {
+	font-family: Sans-serif;
+}
+
+.input[name=name], .input[name=age]{
+	width: 350px;
+	height: 50px;
+	border-radius: 10px;
+	font-family: Sans-serif;
+	font-size: 20px;
+}
+
+.input[name=gender], .input[name=hobby] {				
+}
+	
+.inputbutton {
+	width: 160px;
+	height: 60px;
+	font-family: Sans-serif;
+	background-color: none;
+	color: white;
+	font-weight: bold;
+	border-radius: 10px;	
+}
+
+.inputbutton:hover{
+	background-color:#670739;
+}
+
+.inputbutton:active{
+	color:red;
+}
+
+
+th {
+	background-color: none;
+	color: white;
+	font-family: Sans-serif;
+	width: 80px;
+	
+}
+
+td {
+	padding: 10px 10px 10px 10px;
+	background-color: none;
+	color: white;
+	font-family: Sans-serif;
+	
+}
+.form-line-active input:focus, .form-line-active textarea:focus {
+border: 1px solid green !important;
+box-shadow: 0 0 3px green !important;
+-moz-box-shadow: 0 0 3px green !important;
+-webkit-box-shadow: 0 0 3px green !important;
+}
+
+input:focus, textarea:focus, select:focus {
+outline-offset: 0px !important;
+outline: none !important;
+}
+
+span {
+	
+}
+
+center {
+	
+}
+

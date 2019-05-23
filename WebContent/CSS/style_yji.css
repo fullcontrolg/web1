@@ -1,0 +1,120 @@
+/*Designed by Yoon Joon Il*/
+@charset "UTF-8";
+
+.title{
+	color :#c0c0c0;
+}
+
+h3{
+	color : #c0c0c0;
+}
+
+body{
+  background: #343d46;
+  background-image: url(https://cnet1.cbsistatic.com/img/pecM5xCV-zw0mXTSlBwpAbYuPLw=/2018/06/07/78e06ce4-81e0-4b35-992f-6a2b3585b931/mojave-night.jpg);
+  height: 130%; 
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form{
+	border : 0px;
+	background-color: rgba(53, 53, 53, .5);
+	padding : 30px 30px 30px 30px;
+	border-radius: 8px;
+	width : 500px;
+	height : 350px;
+	margin : auto;
+}
+
+table{
+	border : 0px;
+	background-color: rgba(53, 53, 53, .5);
+	padding : 30px 30px 30px 30px;
+	border-radius: 8px;
+	width : 500px;
+	height : 350px;
+	margin : auto;
+}
+
+td{
+	padding :10px;
+}
+
+.input{
+  width: 200px;
+  height: 50px;
+  background: #2b303b;
+  border: none;
+  font-size: 10pt;
+  color: #ffffff;
+  padding-left: 20px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  
+}
+
+.input,
+.input::after {
+  -webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.input:hover{
+    outline:none;
+    background: #699692;
+}
+
+.inputbutton{	
+  background: none;
+  border: 2px solid #c0c0c0;
+  border-radius: 2px;
+  color: #c0c0c0;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-transform: uppercase;
+
+}
+.inputbutton,
+.inputbutton::after {
+  -webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+  -o-transition: all 0.5s;
+	transition: all 0.5s;
+}
+
+.inputbutton:hover {
+  color: #2ecc71;
+  background-color : white;
+  border: 2px solid white;
+}
+
+
+input[type="checkbox"]{
+	display:none;
+	color:#f2f2f2;
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-2px 10px 0 0;
+    vertical-align:middle;
+    cursor:pointer;
+}
+
+
+input[type="radio"]{
+	display:none;
+	color:#f2f2f2;
+    font-family:Arial, sans-serif;
+    display:inline-block;
+    width:19px;
+    height:19px;
+    margin:-2px 10px 0 0;
+    vertical-align:middle;
+    cursor:pointer;
+}

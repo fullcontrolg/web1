@@ -1,0 +1,77 @@
+/* designed by  */
+
+h1,h2,h3,h4,h5,h6 {
+
+}
+
+a {
+	
+}
+ 
+a:hover {
+
+}
+
+body {
+	
+}
+
+table, th, td {
+			padding: 5px 7px;
+			border-style: groove;
+			font-family: fantasy;
+			font-size: 13px;
+
+		}
+		
+		caption {
+			display: table-caption;
+			text-align: center;
+		}
+
+table {
+		background-color: #d2e19d;
+}
+
+table input {
+	
+}
+
+.input {
+ background-color: #fff7ac;
+}
+
+.input[type=text], .input[type=password] {
+	
+	
+}
+	
+.inputbutton {
+	background-color: #f8c7f7;
+	width: 100px;
+	font-size: 12px;
+	padding: 5px;
+	border-radius: 12px;
+
+}
+.inputbutton:hover{
+	border-color: blue;
+	font-weight:bold;
+}
+
+th {
+	
+}
+
+td {
+	font-size: 13px;
+}
+
+span {
+	
+}
+
+center {
+	
+}
+

@@ -1,0 +1,92 @@
+/* designed by  */
+h1,h2,h3,h4,h5,h6 {
+
+}
+
+table,td,th{
+	border: 1px solid black;
+	
+}
+
+a {
+	
+}
+ 
+a:hover {
+
+}
+
+body {
+	color:
+}
+
+table {
+	box-shadow: 10px 10px grey;
+	
+}
+
+table input {
+	-ms-transform: matrix(1, -0.08, 0, 1, 0, 0); /* IE 9 */
+  -webkit-transform: matrix(1, -0.08, 0, 1, 0, 0); /* Safari */
+  transform: matrix(1, -0.08, 0, 1, 0, 0);
+  
+}
+
+table input:hover {
+ background: rgba(255,255,0, 0.6);
+  color: gray;
+}
+
+table input:active {
+  background:transparent;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+  -ms-transform: matrix(1, +0.02, 0, 1, 0, 0); /* IE 9 */
+  -webkit-transform: matrix(1, +0.02, 0, 1, 0, 0); /* Safari */
+  transform: matrix(1, +0.02, 0, 1, 0, 0);
+}
+
+.input {
+	
+}
+
+.input[type=text], .input[type=password] {
+	width: 70%;
+  padding: 6px 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 2px solid red;
+  border-radius: 4px;
+}
+	
+.inputbutton {
+	border-radius: 15px 50px 30px;
+	color: yellow;
+  	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  	background-color: red; /* Green */
+	  
+	  color: white;
+	  padding: 7px 16px;
+	  text-align: center;
+	  
+	  display: inline-block;
+	  font-size: 16px;
+}
+tr:nth-child(even) {background-color: #ffffb3;}
+th {
+	/*background-image: linear-gradient(  orange,yellow);*/
+}
+
+td {
+	/*background: rgba(255,255,0, 0.5); */
+	
+}
+
+span {
+	
+}
+
+center {
+	
+}
+

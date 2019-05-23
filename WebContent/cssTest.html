@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> Style Sheet 연습 </title>
+		<style type="text/css">
+			body {
+				background : rgb(199, 198, 255); 			
+				font-family : "Comic Sans MS", cursive, sans-serif;
+				background-image: url(images/love.png);
+				background-repeat: no-repeat;
+				background-attachment: fixed;
+				background-position: right top;
+				
+				background : rgb(199, 198, 255) url(images/love.png) no-repeat fixed right top;
+			}
+			p {
+				/*background-image: url(images/b.jpg);*/
+			
+				font-style : italic;
+				font-weight : bold;
+				font-size : 1.1em;
+				font-size : 110%;
+				font : italic bold 110%;
+				
+				letter-spacing: 3px;
+				word-spacing: 5px;
+				line-height: 30px;				
+				white-space: nowrap;  /* pre; */
+				
+				text-indent: 10px;
+				text-transform: uppercase;
+				text-shadow: gray -5px 5px;
+				
+				color: #0000C9; 
+				
+			}
+			
+			a {
+				text-decoration: none;
+			}
+			
+			ul {
+				list-style-type: lower-roman; 
+			}
+			ol {
+				list-style-type: square;
+				list-style-position: inside;
+			}
+			
+			span, strong {
+				color : red;
+			}
+			span i {			/* 후손선택자 */
+				color : blue;
+			}
+			span > i {			/* 자식선택자 */
+				color : yellow;	
+			}
+			.point {
+				color : silver;
+			}
+			.pt {
+				background : white;
+			}
+			.point.pt {
+				color : green;
+			}
+			a.pt {
+				background : gray;
+			}
+			b a.pt {
+				background : yellow;
+			}
+			#p {
+				font-size: 1.5em;
+			}
+			#p.point {
+				color : magenta;
+			}
+			a#p.pt {
+				color : aqua;
+			}
+			b#p {
+				color : lime;
+			}
+			
+			p {
+				border-width: 5px 10px 5px 10px;
+				border-style: groove dotted;
+				border-color: red;
+				
+				margin : 20px;
+				padding : 10px;
+			}
+			
+			a:link {
+				color : blue;
+			}
+			a:visited {
+				color : red;
+			}
+			a:active {
+				color : yellow;
+			}
+			a:hover {
+				color : white;
+			}
+			
+			div {
+				border : solid 3px red;
+				margin : 10px;
+				padding : 20px;
+				width : 100px;
+				height : 50px;
+				float : left;
+			} 
+			
+			p, a {
+				clear : left;
+			}
+			
+			
+		</style>
+	</head>
+	<body>
+		
+		<h2 style='font-family:"Arial Black", Gadget, sans-serif;'> CSS 연습 </h2>
+		
+		<div> 첫번째 </div>
+		<div> 두번째 </div>
+		<div> 세번째 </div>
+		
+		<br><br><br><br><br><br>
+		<a href="http://finance.daum.net/news/aeYuLYXmPD"> 사우디 공격한 '정체불명' 드론..화약고 터지나 </a>
+		<br>
+		<p style="font-style:normal; font-weigh:normal; font-size:100%;">
+			로이터와 파이낸셜타임스 등에 따르면 칼리드 알팔리 사우디 에너지부 장관은 이날 성명을 내고, <br>
+			국영 석유기업 아람코가 소유한 석유 펌프장 2곳이 폭발물을 실은 드론의 공격을 받았다고 발표했다. <br>
+		</p>
+		<p>	 
+			이들 펌프장은 사우디 동부 유전에서 생산한 원유를 서부 홍해 연안 항구까지 운송하는 <br>
+			1200km짜리 파이프라인과 연결돼 있다. <br> 
+			파이프라인 끝에 위치한 얀부항과 인근 항구에선 하루 평균 10만배럴, <br>
+			50만배럴의 원유를 각각 수출하고 있다. <br>
+		</p>
+		<p>	 
+			알팔리 장관은 드론 공격으로 화재가 발생했지만 인명피해 없이 진화됐고, <br>
+			펌프장 1곳만 경미한 피해를 입었다고 설명했다. <br>
+			아람코는 공격 피해 상황을 살피기 위해 현재 파이프라인 운영을 중단한 상태다. <br> 
+		</p>
+		<br>
+		<ul>
+			<li>한국인 90%가 비타민D 부족, 햇빛만 쬐도 생기는데 왜?</li>
+			<li>“중국이 150쪽 합의문의 3분의 1을 잘라냈다”</li>
+			<li>“공짜도 상관없어” 이통3사, 5G가입자 혈투전</li>
+		</ul>
+		<ol>
+			<li>무역전쟁 암운 속 중국 '생산·소비·투자' 삼중고 </li>
+			<li>공시생→실업자 신분 변경에···실업률 외환위기 이후 최악</li>
+			<li>자영업부채 400조 돌파…정부 "연체율 반등, 위험수위 아냐"</li>
+		</ol>
+		<br>
+		
+		<span><b><i> 하나 </i></b></span> <br>
+		<span><i> 하나 </i></span> <br>
+		<span><b> 하나 </b></span> <br>
+		<span><b><a> 하나 </a></b></span> <br>
+		
+		<strong><b><i class="point"> 둘 </i></b></strong> <br>
+		<strong><i class="point pt"> 둘 </i></strong> <br>
+		<strong><b> 둘 </b></strong> <br>
+		<strong><b><a class="pt"> 둘 </a></b></strong> <br>	
+		
+		<strong><b><i id="p" class="point"> 셋 </i></b></strong> <br>
+		<strong><i class="point pt"> 셋 </i></strong> <br>
+		<strong><b id="p"> 셋 </b></strong> <br>
+		<strong><b><a id="p" class="pt"> 셋 </a></b></strong> <br>	
+		
+		
+		
+		<br><br><br><br><br>
+		<br><br><br><br><br>
+		<br><br><br><br><br>
+		<br><br><br><br><br>
+		<br><br><br><br><br>
+		<br><br><br><br><br>
+		
+	</body>
+</html>
+
+
+
+

@@ -1,0 +1,103 @@
+table {
+	background-color: coral;
+	background-height: 200px;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: right top;
+	width : 1000px;
+}
+
+form {
+	border: 10px solid transparent;
+	padding: 15px;
+	-webkit-border-image: url(border.png) 30 round;
+	-o-border-image: url(border.png) 30 round;
+	border-image: url(border.png) 30 round;
+}
+
+h2 {
+	background-color: #FFFFFF;
+	text-shadow: 2px 2px 4px silver;
+	font-style: Impact, Charcoal, sans-serif;
+	border: 10px solid transparent;
+	padding: 15px;
+	-webkit-border-image: url(border.png) 30 round; /* Safari 3.1-5 */
+	-o-border-image: url(border.png) 30 round; /* Opera 11-12.1 */
+	border-image: url(border.png) 30 round;
+}
+
+td {
+	color: #000000;
+	text-shadow: 2px 2px 4px silver;
+}
+
+th {
+	background-color: #E1FF36;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+	font-style: Impact, Charcoal, sans-serif;
+}
+
+tr {
+	background-color: #FFFF36;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+	font-style: Impact, Charcoal, sans-serif;
+}
+
+input {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-style: Impact, Charcoal, sans-serif;
+	color: #000000;
+}
+
+input[type=submit] {
+	width: 100%;
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-style: Impact, Charcoal, sans-serif;
+}
+
+input[type=reset] {
+	width: 100%;
+	background-color: #4CAF50;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	font-style: Impact, Charcoal, sans-serif;
+}
+
+a {
+	border-width: 5px 5px 5px 5px;
+	border-style: groove dotted;
+	border-color: coral;
+	margin: 20px;
+	padding: 10px;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 1.1em;
+	font-size: 110%;
+	font: italic bold 110%;
+	letter-spacing: 3px;
+	word-spacing: 5px;
+	line-height: 30px;
+	white-space: nowrap;
+	text-indent: 10px;
+	text-transform: uppercase;
+	text-shadow: gray -2px 2px;
+	color: #FF007F;
+}

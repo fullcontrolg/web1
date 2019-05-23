@@ -1,0 +1,123 @@
+/* designed by 나 */
+h1,h2,h3,h4,h5,h6 {
+
+}
+
+a {
+	text-decoration: none !important;
+}
+ 
+/* a:hover {
+} */
+
+/* 무지개 시작 */
+a:hover, a:focus { 
+	text-decoration: none !important;
+	animation-duration: 3s; 
+	animation-name: rainbowLink; 
+	animation-iteration-count: infinite; 
+} 
+	
+@keyframes rainbowLink {     
+ 0% { color: #ff2a2a; }
+ 15% { color: #ff7a2a; }
+ 30% { color: #ffc52a; }
+ 45% { color: #43ff2a; }
+ 60% { color: #2a89ff; }
+ 75% { color: #202082; }
+ 90% { color: #6b2aff; } 
+ 100% { color: #e82aff; }
+}
+/* 무지개 종료 */
+
+body {
+	background: url(wallwall2.png) no-repeat fixed;
+}
+
+table {
+	border: none;
+	background: white;
+	border-collapse: collapse;
+	
+	/*애니메이션 코드1 시작  - 삭제요망*/
+	position: absolute;
+ 	left: 300px;
+ 	width: 300px;
+ 	height: 300px;
+ 	margin-left: -200px;
+ 	 
+  	animation-name: animation;
+  	animation-duration: 1s;
+    animation-duration: leaner;
+  	animation-iteration-count: 8;
+    animation-direction: alternate;
+    animation-fill-mode: forwards;
+    /*애니메이션 코드1 종료  - 삭제요망*/
+}
+
+/*애니메이션 코드2 시작  - 삭제요망*/
+@keyframes animation {
+	from {
+		transform: translateX(0);
+		animation-timing-function: cubic-bezier(1, 0, 0.8, 1);
+      }
+	to {
+		transform: translateX(1400px);
+	}
+}
+/*애니메이션 코드2 종료  - 삭제요망*/
+
+table input {
+	border: transparent;
+	color: #c800c8;
+}
+
+.input {
+	border: transparent;
+	color: #c800c8;
+}
+
+.input[type=text], .input[type=password] {
+	border: transparent;
+	color: #c800c8;
+}
+	
+.inputbutton {
+	background: #2080ff;
+	color: white;
+}
+
+.inputbutton:hover{
+	background: #c800c8;
+	color: white;
+}
+
+th, td {
+	border-left: transparent;
+	border-right: transparent;
+}
+
+/* td {
+} */
+
+span {
+	
+}
+
+center {
+	
+}
+
+/* 박스 포커스 파란 테두리 삭제. 시작 */
+.form-line-active input:focus, .form-line-active textarea:focus {
+border: 1px solid green !important;
+box-shadow: 0 0 3px green !important;
+-moz-box-shadow: 0 0 3px green !important;
+-webkit-box-shadow: 0 0 3px green !important;
+}
+
+input:focus, textarea:focus, select:focus {
+outline-offset: 0px !important;
+outline: none !important;
+}
+/* 박스 포커스 파란 테두리 삭제.  종료 */

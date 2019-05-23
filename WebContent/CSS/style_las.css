@@ -1,0 +1,77 @@
+/* designed by  */
+h1,h2,h3,h4,h5,h6 {
+		padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #bcbcbc;
+        border-left: 10px solid #369;
+        width: 305px;
+        text-align: center;
+}
+
+a {
+	
+}
+ 
+a:hover {
+
+}
+
+body {
+	background: #ffffff;
+}
+
+table {
+	border-collapse: collapse;
+	border-left: 10px solid #369;
+    text-align: left;
+    line-height: 1.5;
+}
+
+table thead th {
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    color: #369;
+    border-bottom: 3px solid #036;
+}
+table tbody th {
+    width: 50px;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: top;
+    border-bottom: 1px solid #ccc;
+    background: #f3f6f7;
+}
+
+table input {
+	
+}
+
+.input {
+
+}
+
+.input[type=text], .input[type=password] {
+	
+}
+	
+.inputbutton {
+
+}
+
+th {
+	
+}
+
+td {
+	height="35" width="300"
+}
+
+span {
+	color : red;
+}
+
+center {
+	
+}
+
